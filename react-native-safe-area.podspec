@@ -13,6 +13,4 @@ Pod::Spec.new do |s|
   s.source          = { :git => "https://github.com/miyabi/react-native-safe-area.git", :tag => "v" + s.version.to_s }
   s.source_files    = "ios/RNSafeArea/*.{h,m}"
   s.preserve_paths  = "**/*.js"
-
-  s.dependency 'React'
 end
